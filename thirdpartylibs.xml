@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <libraries>
     <library>
+        <location>amd/src/mathbox-bundle.js</location>
+        <name>MathBox</name>
+        <version>0.0.5</version>
+        <license>MIT License</license>
+    </library>
+    <library>
         <location>amd</location>
         <name>JSXGraph</name>
         <version>0.99.7</version>
@@ -25,7 +31,3 @@
         <license>MIT License</license>
     </library>
 </libraries>
-
-
-
-
