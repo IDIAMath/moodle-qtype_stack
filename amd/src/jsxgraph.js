@@ -1,6 +1,6 @@
 /// NOTE! This code does eval() a string with no validation.
 // So lets hope this is the correct way to name a Moodle AMD module
-define(["qtype_stack/jsxgraphcore-lazy"], function(JXG) {
+define(["qtype_stack/jsxgraphcore"], function(JXG) {
     return {
             find_input_id: function(divid, name) {
                 var tmp = document.getElementById(divid);

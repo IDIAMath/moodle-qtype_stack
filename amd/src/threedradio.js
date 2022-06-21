@@ -132,9 +132,10 @@
  
      // Creates a JXG board to plot a graph on
      var board = JXG.JSXGraph.initBoard(divId, {
-         boundingbox: [-8, 8, 8, -8],
+         boundingbox: [-5, 5, 5, -5],
          keepaspectratio: false,
-         axis: false
+         axis: false,
+         grid: true
      });
  
  
@@ -147,11 +148,11 @@
  
      if (expression != null && expression != '') {
          let zFunc = Parser.parse(expression).toJSFunction(['x','y']);
-         /*
+         
          if ( ranges.length <= 4) {
              [zMin, zMax] = calculateZRange(zFunc, ranges, resolution).map(num => parseFloat(num))
          }
-          */
+          
  
          [zMin, zMax] = createGraph(expression, view, options);
      }
