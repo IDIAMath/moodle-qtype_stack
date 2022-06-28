@@ -1,17 +1,7 @@
 <?xml version="1.0"?>
 <libraries>
     <library>
-<<<<<<< HEAD
-        <location>amd/src/mathbox-bundle.js</location>
-        <name>MathBox</name>
-        <version>0.0.5</version>
-        <license>MIT License</license>
-    </library>
-    <library>
-        <location>amd</location>
-=======
         <location>amd/src/jsxgraphcore-lazy.js</location>
->>>>>>> master
         <name>JSXGraph</name>
         <version>1.4.4</version>
         <license>GNU LGPL or MIT License</license>
@@ -35,7 +25,3 @@
         <license>MIT License</license>
     </library>
 </libraries>
-<<<<<<< HEAD
-=======
-
->>>>>>> master
