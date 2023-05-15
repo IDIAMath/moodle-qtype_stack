@@ -52,8 +52,9 @@ class stack_threedradio_input extends stack_dropdown_input {
 
         // First load in the javascript needed to render the graphs
         global $PAGE;
-        $PAGE->requires->js('/question/type/stack/amd/build/jsxgraphcore.js');
-        $PAGE->requires->js('/question/type/stack/amd/build/parser.min.js');
+        $PAGE->requires->js_call_amd('qtype_stack/jsxgraphcore-lazy');
+        $PAGE->requires->js_call_amd('qtype_stack/jsxgraph');
+        $PAGE->requires->js_call_amd('qtype_stack/parser');
 
         // Create html.
         $result = '';

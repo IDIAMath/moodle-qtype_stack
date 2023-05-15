@@ -22,7 +22,8 @@
  * @copyright  2021 NTNU
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
- import marchingCubes from "./marchingcube";
+
+import marchingCubes from "./marchingcube";
 
  // TODO refactor the code to allow the setup of ranges work with implicit graphs too,
  // as now an implicit graph has to hook into an existing canvas
@@ -37,7 +38,8 @@
   *
   * @type {{"backgroundcolor": string, ranges: string, graphcolorstyle: string, disableaxes: boolean}}
   */
- const standardValues = {
+
+const standardValues = {
      'backgroundcolor': 'white',
      'graphcolorstyle': 'lightblue',
      'disableaxes': false,
